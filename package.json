@@ -1,0 +1,16 @@
+{
+  "name": "PolicyBot",
+  "version": "1.0.0",
+  "description": "Bot for getting appointment to policy in Spain",
+  "main": "index.js",
+  "author": "Veronika Voronova <voronovaveronika@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "nightwatch": "^1.4.3"
+  },
+  "devDependencies": {
+    "chromedriver": "^86.0.0",
+    "geckodriver": "^1.20.0",
+    "selenium-server": "^3.141.59"
+  }
+}

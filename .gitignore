@@ -1,0 +1,4 @@
+node_modules
+~/Library/
+tests_output
+.env

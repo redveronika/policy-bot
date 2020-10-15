@@ -1,0 +1,32 @@
+{
+  "src_folders" : ["scripts"],
+
+  "webdriver" : {
+    "keep_alive": true,
+    "start_process": true,
+    "server_path": "node_modules/.bin/chromedriver",
+    "port": 9515
+  },
+
+  "test_settings" : {
+    "default" : {
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "chromeOptions" : {
+          "args" : [
+            "start-fullscreen",
+            "disable-web-security",
+            "user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36",
+            "user-data-dir=/Users/redveronika/Library/Application Support/Google/Chrome Canary"
+          ],
+          "binary": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+        }
+      },
+
+      "globals": {
+        "asyncHookTimeout": 7200000,
+        "retryAssertionTimeout": 7200000
+      }
+    }
+  }
+}
